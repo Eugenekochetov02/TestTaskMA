@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testtaskma"
+version = "0.1.0"
+description = ""
+authors = ["Eugene <eugene.kochetov02@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.6"
+aiofiles = "^23.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
